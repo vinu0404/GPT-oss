@@ -6,7 +6,7 @@ from architecture.tokenizer import get_tokenizer
 
 
 
-context_len=8192
+context_len=4096
 tokenizer= get_tokenizer()
 
 def text_to_token_ids(text, tokenizer):
